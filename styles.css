@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Ondyne";
-  src: url("/fonts/OndyneRegular-z8l1L.ttf");
+  src: url("./fonts/OndyneRegular-z8l1L.ttf");
   font-weight: 400;
   font-style: normal;
 }
@@ -133,13 +133,13 @@ body {
 }
 
 .grid-item {
-  background-color: violet;
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
 }
 .grid-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .big {
@@ -376,8 +376,9 @@ body {
   width: 200px;
   height: 200px;
   margin-top: 2rem;
-}
+  width: 100%;  
 
+}
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -386,47 +387,59 @@ body {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+  height: 100%;
+  margin: 0%;
+
 }
 
 .swiper-slide:nth-child(1n) {
-  background: url(https://placeimg.com/500/500/all) no-repeat center;
+  background: url(./icons-slider/xd.png) no-repeat center;
 }
 
+
 .swiper-slide:nth-child(2n) {
-  background-color: rgb(0, 140, 255);
+
+  background: url(./icons-slider/ilustrador.png) no-repeat center;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: rgb(10, 184, 111);
-}
 
+  background: url(./icons-slider/photoshop.png) no-repeat center;
+}
+.swiper-slide:nth-child(9n) {
+  background: url(./icons-slider/last.png) no-repeat center;
+}
 .swiper-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
+    background: url(./icons-slider/ow.png) no-repeat center ;
 }
 
 .swiper-slide:nth-child(5n) {
   background-color: rgb(118, 163, 12);
+      background: url(./icons-slider/figma.png) no-repeat center ;
 }
 
 .swiper-slide:nth-child(6n) {
   background-color: rgb(180, 10, 47);
+  background: url(./icons-slider/behance.png) no-repeat center ;
 }
 
 .swiper-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);
+  background: url(./icons-slider/setset.png) no-repeat center ;
 }
 
 .swiper-slide:nth-child(8n) {
   background-color: rgb(0, 68, 255);
+  background: url(./icons-slider/desc.png) no-repeat center;
 }
-
-.swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
-}
-
 .swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
+  background-color: rgb(0, 68, 255);
+  background: url(./icons-slider/xd.png) no-repeat center;
 }
+
+
+
 
 .proyect-description {
   display: none;
@@ -776,9 +789,6 @@ body {
     object-fit: cover;
   }
 
-  .swiper.mySwiper {
-    display: none;
-  }
 
   .contact h1 {
     font-size: 50px;
