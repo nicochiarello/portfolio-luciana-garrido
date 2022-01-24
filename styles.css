@@ -853,7 +853,7 @@ body {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 15rem);
+    grid-template-rows: repeat(3, 15rem);
     row-gap: 15px;
     column-gap: 15px;
     grid-auto-flow: dense;
@@ -861,11 +861,11 @@ body {
   }
   .big {
     grid-row: span 1;
-    grid-column: span 2;
+    grid-column: span 1;
   }
   .wide {
     grid-row: span 1;
-    grid-column: span 2;
+    grid-column: span 1;
   }
   .proyect-container1{
         width: 100%;
