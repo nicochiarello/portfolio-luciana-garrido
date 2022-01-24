@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -30,36 +31,46 @@
       </div>
       <div class="navbar">
         <ul>
-          
-          <li><a href="#inicio">Inicio</a> </li>
-          <li><a href="#proyectos">Proyectos</a> </li>
-          <li><a href="#about">About</a> </li>
-          <li><a href="#contacto">Contacto</a> </li>
-          
-        
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
     </div>
     <div class="introduction">
       <p>Diseñadora UX/UI</p>
     </div>
-    <div class="introduction-container">
+    <div
+      class="introduction-container"
+      data-aos="fade-in"
+      data-aos-duration="1500"
+    >
       <div class="main-img-container"></div>
 
       <article class="main-text">
         <p>
-          <span>¡Hola!</span> <br> <br />
+          <span data-aos="fade-in" data-aos-duration="1500">¡Hola!</span> <br />
+          <br />
           Bienvenido a mi portfolio. <br />
           <br />
           Soy Luciana, me dedico a la rama de Diseño UX UI y acá te voy a contar
-          un poco sobre mí y lo que he hecho. 
+          un poco sobre mí y lo que he hecho.
         </p>
         <div class="btn">
           <p>Contacto</p>
         </div>
       </article>
     </div>
-    <div class="grid-container">
+    <div
+      class="grid-container"
+      data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+    >
       <div class="grid-item big">
         <img src="./images/Proyecto final behance1.png" alt="" />
       </div>
@@ -103,7 +114,12 @@
     </div>
 
     <div class="proyects-content">
-      <div class="proyect-container1">
+      <div
+        class="proyect-container1"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
         <p class="proyect-title">Re-diseño Cabify</p>
         <p class="proyect-description">
           Realizado en el curso de Diseño UX/UI Avanzado en CoderHouse.
@@ -112,7 +128,12 @@
           <img src="https://placeimg.com/500/500/all" alt="" />
         </div>
       </div>
-      <div class="proyect-container2">
+      <div
+        class="proyect-container2"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
         <div class="proyect-img2">
           <img src="https://placeimg.com/500/500/all" alt="" />
         </div>
@@ -122,7 +143,12 @@
         </p>
       </div>
 
-      <div class="proyect-container3">
+      <div
+        class="proyect-container3"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
         <p class="proyect-title">Diario digital Luján En 5'</p>
         <p class="proyect-description">
           Proyecto realizado de forma freelance. Diseño e investigación de
@@ -139,10 +165,20 @@
         <h2>About me</h2>
       </div>
       <div class="about-grid">
-        <div class="about-img">
+        <div
+          class="about-img"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <img src="https://placeimg.com/500/500/people" alt="" />
         </div>
-        <div class="about-text">
+        <div
+          class="about-text"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+        >
           <p>
             Soy Luciana Garrido, diseñadora UX/UI. <br />
             Creo diseños basandome en la invesigación de campo, para tener
@@ -160,7 +196,12 @@
         </div>
       </div>
     </div>
-    <div class="work-info">
+    <div
+      class="work-info"
+      data-aos="fade-in"
+      data-aos-duration="1000"
+      data-aos-delay="100"
+    >
       <div class="experience">
         <p>Experiencia</p>
         <h3>freelancer</h3>
@@ -179,21 +220,17 @@
         <p>Herramientas</p>
 
         <h5>
-          · Figma · Adobe XD · Adobe Ilustrator · Adobe Photoshop  
-          · Optimal Workshop · Miro · Mural · Whimsical · <br />
+          · Figma · Adobe XD · Adobe Ilustrator · Adobe Photoshop · Optimal
+          Workshop · Miro · Mural · Whimsical · <br />
           Behance ·
         </h5>
       </div>
     </div>
 
-
-
     <!-- swiper desktop -->
-        <div class="swiper mySwiper">
+    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide1">
-      
-        </div>
+        <div class="swiper-slide1"></div>
         <div class="swiper-slide"></div>
         <div class="swiper-slide"></div>
         <div class="swiper-slide"></div>
@@ -206,8 +243,6 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
-
-
 
     <div id="contacto" class="contact">
       <h1>Contacto</h1>
@@ -230,7 +265,10 @@
         </div>
       </div>
     </div>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./main.js"></script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -256,7 +294,7 @@
           "@1.00": {
             slidesPerView: 7,
             spaceBetween: 40,
-          }
+          },
         },
       });
     </script>
