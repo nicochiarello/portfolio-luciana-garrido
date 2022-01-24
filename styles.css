@@ -13,12 +13,13 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 1);
   scroll-behavior: smooth;
+
 }
 
 /* background: linear-gradient(90deg, #F8A6A8 0%, #FBD2B4 47.42%, #DBEAC3 100%); */
 
 body {
-  width: 100vw;
+  max-width: 100%;
   overflow-x: hidden;
   background-color: rgba(6, 6, 6, 1);
 }
@@ -36,6 +37,10 @@ body {
   width: 100vw;
   background-color: rgb(26, 26, 26);
   padding: 1rem;
+}
+.introduction-container{
+  width: 100%;
+  overflow-x: hidden;
 }
 .title-container {
   width: 100%;
@@ -149,6 +154,8 @@ body {
   column-gap: 15px;
   grid-auto-flow: dense;
   margin-top: 2rem;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .grid-item {
