@@ -968,4 +968,20 @@ body {
     font-size: 20px;
   }
 
+  .about-text{
+    padding: 0%;
+  }
+
+  .about-img{
+    width: 100%;
+    padding: 0%;
+    height: 30rem;
+  }
+  .about-img img{
+    width: 100%;
+  }
+  .about-grid{
+    padding: 0% 10% 0% 10%;
+  }
+
 }
