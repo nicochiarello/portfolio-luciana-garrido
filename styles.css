@@ -35,7 +35,7 @@ body {
   top: 0%;
   width: 100vw;
   background-color: rgb(26, 26, 26);
-  padding: 2rem;
+  padding: 1rem;
 }
 .title-container {
   width: 100%;
@@ -510,8 +510,8 @@ body {
   .main-img-container {
     width: 35rem;
     height: 35rem;
-    right: 3%;
-    top: 20%;
+    right: 5%;
+    top: -10%;
     float: right;
     position: absolute;
     transform: none;
