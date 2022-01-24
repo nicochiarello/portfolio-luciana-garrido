@@ -970,6 +970,11 @@ body {
 
   .about-text{
     padding: 0%;
+   
+  }
+
+  .about-text p{
+     text-align: left;
   }
 
   .about-img{
