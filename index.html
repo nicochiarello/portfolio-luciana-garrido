@@ -232,14 +232,26 @@
 
     <!-- Initialize Swiper -->
     <script>
-
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 30,
-        freeMode: true,
+        slidesPerView: 1,
+        spaceBetween: 10,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 7,
+            spaceBetween: 40,
+          }
         },
       });
     </script>
