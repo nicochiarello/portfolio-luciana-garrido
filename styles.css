@@ -23,6 +23,10 @@ body {
   overflow-x: hidden;
   background-color: rgba(6, 6, 6, 1);
 }
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 .navbar-container {
   width: 100vw;
@@ -109,6 +113,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  
+}
+
+.main-img-container img{
+  position: absolute;
+  object-fit: contain;
+  height: 130%;
+  bottom: -30%;
+ 
 }
 
 .main-text {
@@ -210,7 +224,7 @@ body {
 .proyect-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .proyect-img2 {
@@ -307,6 +321,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 
 .about-text {
@@ -490,7 +505,13 @@ body {
   .title-container h1 span {
     font-size: 45px;
   }
-
+.main-img-container img{
+  position: absolute;
+  object-fit: contain;
+  max-height: 130%;
+  top: 0%;
+ 
+}
   .navbar {
     width: 40vw;
   }
@@ -518,7 +539,7 @@ body {
     width: 35rem;
     height: 35rem;
     right: 5%;
-    top: -10%;
+    top: -5%;
     float: right;
     position: absolute;
     transform: none;
@@ -527,6 +548,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    height: 40rem;
   }
 
   .introduction p {
@@ -714,6 +736,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin-top: 5rem;
+    column-gap: 2rem;
   }
   .about-img {
     max-height: 60rem;
@@ -840,7 +863,7 @@ body {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1600px) {
+@media (min-width: 650px) and (max-width: 1600px) {
   .title-container h1 {
     font-size: 35px;
   }
@@ -848,17 +871,29 @@ body {
     font-size: 45px;
   }
 
+  .main-img-container img{
+    top: 0%;
+  object-fit: cover;
+  height: 140%;
+    overflow: hidden;
+    position: relative;
+ 
+}
+
   .introduction-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+   
+    overflow: hidden;
   }
 
   .main-img-container {
     width: 50vw;
     height: 50vw;
     transform: none;
+    overflow: hidden;
   }
   .main-text {
     text-align: center;
