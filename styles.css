@@ -212,6 +212,7 @@ html{
   height: 10rem;
   width: 98%;
   position: relative;
+  text-decoration: none;
 }
 
 .proyect-img {
@@ -260,6 +261,7 @@ html{
   height: 10rem;
   width: 98%;
   position: relative;
+  text-decoration: none;
 }
 
 .proyect-title2 {
@@ -290,6 +292,7 @@ html{
   height: 10rem;
   width: 98%;
   position: relative;
+  text-decoration: none;
 }
 
 .about {
@@ -346,6 +349,8 @@ html{
   text-align: left;
   color: #ffffff;
 }
+
+
 
 .experience {
   text-align: center;
@@ -749,6 +754,13 @@ html{
     line-height: 60px;
     text-align: left;
     color: #ffffff;
+  }
+  .about-text a p{
+    color: #060606;
+    font-weight: 400;
+  }
+  .about-text a{
+    text-decoration: none;
   }
   .about-img {
     height: 100%;
