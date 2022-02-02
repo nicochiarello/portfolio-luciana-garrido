@@ -351,6 +351,16 @@ html{
   color: #ffffff;
 }
 
+.btn{
+  text-decoration: none;
+}
+
+.btn p{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
 
 
 .experience {
@@ -403,23 +413,30 @@ html{
 }
 
 .contact-items-container {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(2, 40vw);
+  display:flex;
   width: 100%;
+  flex-direction: column;
   justify-content: center;
-  column-gap: 10%;
-  row-gap: 1.5rem;
+  align-items:stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .contact-items {
   display: flex;
-  gap: 15px;
-  width: fit-content;
+  gap: 10%;
+  padding: 10px;
+  width: 100%;
+  background-color: #555555;
+  
 }
 
+.contact-items span{
+  color: rgb(250, 250, 250);
+  font-weight: 500;
+}
 .contact-items img {
   height: 30px;
 }
