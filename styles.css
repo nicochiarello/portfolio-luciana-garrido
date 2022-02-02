@@ -273,8 +273,13 @@ color: #FFFFFF;
 
 
 
+.contenedor-proyectos a{
+  text-decoration: none;
+}
 
-
+.contenedor-proyectos span{
+  padding: 1rem;
+}
 
 
 
